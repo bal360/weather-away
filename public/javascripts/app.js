@@ -6,8 +6,6 @@ const message = document.querySelector('p')
 form.addEventListener('submit', (event) => {
   event.preventDefault()
   
-  message.innerText = 'Loading...'
-
   getWeather(input.value)
 
   form.reset()
