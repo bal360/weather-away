@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="./stylesheets/style.css">
+  <link rel="stylesheet" href="./stylesheets/weather-icons.min.css">
+  <title>Forecast App</title>
+</head>
+<body>
+  {{> header}}
+  <main>
+    <h4>Enter in a location to get the forecast!</h4>
+    <div class="row">
+      <form action="" class="col s12">
+        <div class="row">
+          <div class="input-field col s8">
+            <input type="text" placeholder="Location">
+          </div>
+          <div class="input-field col s4">
+            <button class="btn waves-effect waves-light" type="submit" name="action">Get Forecast!</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <h6></h6>
+    <p></p>
+  </main>
+  {{> footer}}
+  <script src="/javascripts/app.js"></script>
+</body>
+</html>
