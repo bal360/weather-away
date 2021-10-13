@@ -11,9 +11,14 @@ main {
 }
 
 img {
-  width: 300px;
+  width: 250px;
 }
 
 .error {
   color: red;
+}
+
+p {
+  text-align: center; 
+  margin: auto;
 }

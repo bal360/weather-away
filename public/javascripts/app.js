@@ -33,8 +33,8 @@ const formatForecast = ({
     message.innerText = error
   } else {
     message.classList.remove('error')
-    forecastHeading.innerText = `Forecast for ${address}`
-    message.innerText = `The temperature is ${temperature}°. The weather is ${weather_descriptions.join(', ').toLowerCase()} with a ${precip}% of precipitation.`
+    forecastHeading.innerText = `${address}`
+    message.innerText = `The temperature is ${temperature}°. Expecting ${weather_descriptions.join(', ').toLowerCase()} with a ${precip}% of precipitation.`
   }
 }
 
